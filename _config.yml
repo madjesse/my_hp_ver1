@@ -20,10 +20,10 @@
 
 title: Jesse Creatives
 email: jesseweijapan@gmail.com
-description: >
+description: >-
   Web / UX / UI / Application Design and Development With User-centered Approach
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/jekyll" # the subpath of your site, e.g. /blog
+url: "jessecreatives.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
