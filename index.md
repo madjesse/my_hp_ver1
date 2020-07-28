@@ -3,11 +3,11 @@ layout: home
 header:
   - type: hero.html
     id: hero
-    title: USER-CENTERED DESIGN & DEVELOPMENT
+    title: USER-CENTERED DESIGN & <br/>DEVELOPMENT
     description: WEB / UX / UI / APPLICATION
     img:
         - source: assets/images/hero.svg
-        alt: Main illustration
+          alt: Main illustration
     actions:
       - title: WORKS
       - title: BLOG
