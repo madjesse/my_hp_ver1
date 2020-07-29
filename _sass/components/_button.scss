@@ -1,0 +1,26 @@
+
+@import "../base/parameters";
+
+.bi-arrow-right-short {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    fill: $color-light;
+    width: 2rem;
+}
+@mixin line-button($text-color, $line-color) {
+    position: relative;
+    height: 100%;
+    padding: $padding-1-half 0;
+    color: $text-color;
+    font-size: $font-size-xxs;
+    font-weight: $font-weight-light;
+    background-color: transparent;
+    border: $border;
+    border-radius: 6rem;
+}
+@mixin fill-button($text-color, $bg-color) {
+    @include line-button($text-color, $bg-color);
+    background-color: $bg-color;
+}

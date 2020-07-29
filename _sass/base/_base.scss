@@ -1,0 +1,33 @@
+@import "normalize";
+@import "parameters";
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: $font-size-xxxs;
+    font-family: $font-family-primary;
+    color: $color-primary;
+    letter-spacing: 0.2rem;;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: $color-primary;
+    text-align: center;
+}
+a:hover {
+    text-decoration: none;
+}
+h1 {
+    font-size: $font-size-lg;
+    font-weight: $font-weight-medium;
+}
+.container {
+    padding: 0;
+}

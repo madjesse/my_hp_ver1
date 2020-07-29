@@ -1,0 +1,65 @@
+// colors
+$color-primary: #1F2833;
+$color-secondary: #FEB300;
+$color-light: #FFF5D7;
+
+// font families
+$font-family-primary: 'Teko', sans-serif;
+$font-family-text: 'Titillium Web', sans-serif;
+
+// font sizes
+$font-size-lg: 5.5rem;
+$font-size-md: 4rem;
+$font-size-md-sm: 3rem;
+$font-size-sm: 2.5rem;
+$font-size-xs: 2rem;
+$font-size-xxs: 1.5rem;
+$font-size-xxxs: 1.2rem;
+$font-size-xxxxs: 1rem;
+
+// font weights
+$font-weight-light: 500;
+$font-weight-medium: 600;
+$font-weight-bold: 700;
+$font-weight-bolder: bold;
+
+// letter spacing
+$letter-spacing-1: 1rem;
+$letter-spacing-dot-8: 0.8rem;
+$letter-spacing-dot-3: 0.3rem;
+$letter-spacing-dot-2: 0.2rem;
+$letter-spacing-dot-1: 0.1rem;
+
+// spacing
+$margin-20: 20rem;
+$margin-12: 12rem;
+$margin-6: 6rem;
+$margin-4: 4rem;
+$margin-3: 3rem;
+$margin-2: 2rem;
+$margin-1-half: 1.5rem;
+$margin-1: 1rem;
+$padding-20: 20rem;
+$padding-12: 12rem;
+$padding-6: 6rem;
+$padding-4: 4rem;
+$padding-3: 3rem;
+$padding-2: 2rem;
+$padding-1-half: 1.5rem;
+$padding-1: 1rem;
+$padding-half: 0.5rem;
+
+// border
+$border: 0.2rem solid $color-primary;
+$border-light: 0.2rem solid $color-light;
+
+// for responsive
+$pc: 1200px;  // use min-width: $pc
+$smaller-than-pc: 1199px; // use max-width: $smaller-than-pc
+$tablet: 767px;  // use max-width: $tablet
+$mobile: 576px;  // use max-width: $mobile
+$smaller-than-mobile: 575px; // use min-width: $smaller-than-mobile
+
+
+
+

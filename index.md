@@ -1,12 +1,14 @@
 ---
 layout: home
+id: home
+csspath: assets/css/main-home.css
 header:
   id: hero
-  title: USER-CENTERED DESIGN & <br/>DEVELOPMENT
-  description: WEB / UX / UI / APPLICATION
+  title: USER-CENTERED<br/>DESIGN <span>&</span> DEVELOPMENT
+  description: WEB / UX / UI / APP
   img:
-    - source: assets/images/hero.svg
-      alt: Main illustration
+    source: assets/images/hero.svg
+    alt: Hero illustration
   actions:
     - title: WORKS
     - title: BLOG

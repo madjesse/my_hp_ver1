@@ -1,0 +1,62 @@
+@import "../base/parameters";
+@import "../base/base";
+@import "../utils/animation";
+@import "../components/button";
+@import "../components/nav";
+@import "../components/jumbo";
+
+
+.hero-img {
+    width: 100%;
+}
+.container {
+    padding: $padding-12 0;
+}
+.value-prop-msg {
+    span {
+        font-size: $font-size-sm;
+    }
+}
+.sub-value-prop-msg {
+    font-size: $font-size-xs;
+    letter-spacing: 1rem;
+    transform: translateY(-3rem);
+}
+.col-md-6:first-child {
+    transform: translateY(6rem);
+}
+// call-to-action buttons
+.cta {
+    width: 15rem;
+    a {
+        @include fill-button($color-light, $color-primary);
+        .bi-arrow-right-short {
+            right: 15%;
+        }
+        &:hover {
+            .bi-arrow-right-short {
+                animation: wiggle 1s linear infinite normal;
+            }
+        }
+    }
+    margin-right: $margin-3!important;
+}
+.cta-line {
+    a {
+        @include line-button($color-primary, $color-primary);
+        .bi-arrow-right-short {
+            fill: $color-primary;
+        }
+    }
+    
+}
+
+// social media buttons
+.social-media {
+    width: 2rem;
+    margin-right: $margin-4!important;
+    svg {
+        fill: $color-secondary;
+        width: 100%;
+    }
+}
