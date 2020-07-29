@@ -15,6 +15,13 @@ header:
     - title: BLOG
       url: /blog
       style: cta-line
+  social-media:
+    - id: twitter
+      path: assets/images/twitter_round.svg
+    - id: facebook
+      path: assets/images/fb_round.svg
+    - id: instagram
+      path: assets/images/insta_round.svg
 sections:
   - type: section.html
     id: latest-works
