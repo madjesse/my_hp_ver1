@@ -5,16 +5,18 @@ csspath: assets/css/main-home.css
 header:
   id: hero
   title: USER-CENTERED<br/>DESIGN <span>&</span> DEVELOPMENT
-  description: WEB / UX / UI / APP
+  description: WEB / UX / UI / APPLICATION
   img:
     source: assets/images/hero.svg
     alt: Hero illustration
   actions:
     - title: WORKS
+      url: /works
     - title: BLOG
-      style: line
+      url: /blog
+      style: cta-line
 sections:
-  - type: latest.html
+  - type: section.html
     id: latest-works
     title: LATEST WORKS
     cols:
@@ -48,7 +50,7 @@ sections:
             text: A Web Design & Development Project For UNITEQ.Ltd
             action:
               title: DETAIL
-  - type: latest.html
+  - type: section.html
     id: latest-posts
     title: LATEST POSTS
     cols:
@@ -79,7 +81,7 @@ sections:
             text: Create a Curved-edge Image
             action:
               title: DETAIL
-  - type: work-with.html
+  - type: section.html
     id: work-with
     title: WORK WITH
     cols:

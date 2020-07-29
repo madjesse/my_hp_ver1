@@ -13,7 +13,7 @@ layout: base
         <a class="logo" href="jessecreatives.com">
             <!-- svg logo -->
             <svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84.5 129.16"><polygon points="57.75 129.16 14.37 129.16 62.81 101.19 62.81 54.89 30 73.83 30 48.78 84.5 17.32 84.5 113.72 57.75 129.16" style="fill:#1f2833"/><polygon points="54.49 68.97 21.69 87.91 21.69 43.98 54.49 25.02 54.49 20.01 17.35 41.48 17.35 95.42 54.49 73.98 54.49 68.97" style="fill:#1f2833"/><polygon points="54.49 78.99 13.01 102.94 13.01 38.98 54.49 15.03 54.49 10.02 8.68 36.47 8.68 110.45 54.49 84 54.49 78.99" style="fill:#1f2833"/><polygon points="54.49 89.01 4.34 117.97 4.34 33.97 54.49 5.01 54.49 0 0 31.46 0 125.48 54.49 94.02 54.49 89.01" style="fill:#1f2833"/></svg>
-            <h1>JESSE CREATIVES</h1>
+            <h1><span class="font-weight-regular">JESSE</span>CREATIVES</h1>
         </a>
         <!-- menu -->
         <div class="collapse navbar-collapse">
@@ -24,7 +24,7 @@ layout: base
             </ul>
             <!-- languages -->
             <ul class="list-inline languages">
-                <li class="list-inline-item"><a class="active" href="#">EN</a></li>
+                <li class="list-inline-item"><a data-lang="en" class="active" href="#">EN</a></li>
                 <li class="list-inline-item"><a data-lang="jp" href="#">JP</a></li>
             </ul>
         </div>
@@ -38,24 +38,17 @@ layout: base
                     <h1 class="value-prop-msg">{{ page.header.title }}</h1>
                     <p class="sub-value-prop-msg">{{ page.header.description }}</p>
                     <ul class="list-inline cta-group">
-                        <li class="list-inline-item cta">
-                            <a href="/works">
-                                WORKS
-                                <svg viewBox="0 0 16 16" class="bi bi-arrow-right-short" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M8.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.793 8 8.146 5.354a.5.5 0 0 1 0-.708z"/>
-                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5H11a.5.5 0 0 1 0 1H4.5A.5.5 0 0 1 4 8z"/>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="list-inline-item cta cta-line">
-                            <a href="/blog">
-                                BLOG
-                                <svg viewBox="0 0 16 16" class="bi bi-arrow-right-short" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M8.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.793 8 8.146 5.354a.5.5 0 0 1 0-.708z"/>
-                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5H11a.5.5 0 0 1 0 1H4.5A.5.5 0 0 1 4 8z"/>
-                                </svg>
-                            </a>
-                        </li>
+                        {% for action in page.header.actions %}
+                            <li class="list-inline-item cta {% if action.style %}{{ action.style }}{% endif %}">
+                                <a href="{{ action.url }}">
+                                    <span class="btn-title">{{ action.title }}</span>
+                                    <svg viewBox="0 0 16 16" class="bi bi-arrow-right-short" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M8.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.793 8 8.146 5.354a.5.5 0 0 1 0-.708z"/>
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5H11a.5.5 0 0 1 0 1H4.5A.5.5 0 0 1 4 8z"/>
+                                    </svg>
+                                </a>
+                            </li>
+                        {% endfor %}
                     </ul>
                     <ul class="list-inline social-media-group">
                         <li class="list-inline-item social-media twitter">

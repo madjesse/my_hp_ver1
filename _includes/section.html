@@ -1,0 +1,23 @@
+<section id="{{ section.id }}">
+    {% if section.title %}
+        <h2>{{ section.title }}</h2>
+    {% endif %}
+    <div class="container">
+        <div class="row">
+            {% for col in section.cols %}
+                <div class="{{ col.grid }}">
+                    <div class="card">
+                        <a href="{{ col.card.url }}">
+                            <div class="card-img-top">
+                                <img src="{{ col.card.img.source }}" alt="{{ col.card.img.alt }}">
+                            </div>
+                            <div class="card-body">
+                                <p>{{ col.card.body.text }}</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

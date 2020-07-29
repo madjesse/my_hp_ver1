@@ -19,22 +19,30 @@
 }
 .sub-value-prop-msg {
     font-size: $font-size-xs;
-    letter-spacing: 1rem;
-    transform: translateY(-3rem);
+    font-weight: $font-weight-bold;
+    letter-spacing: 0.5rem;
+    transform: translate(0.2rem, -3rem);
 }
 .col-md-6:first-child {
     transform: translateY(6rem);
 }
 // call-to-action buttons
+.cta-group {
+    transform: translateY(-1rem);
+}
 .cta {
     width: 15rem;
     a {
+        line-height: 2rem;
         @include fill-button($color-light, $color-primary);
         .bi-arrow-right-short {
             right: 15%;
         }
         &:hover {
+            background-color: transparent;
+            color: $color-primary;
             .bi-arrow-right-short {
+                fill: $color-primary;
                 animation: wiggle 1s linear infinite normal;
             }
         }
@@ -47,10 +55,16 @@
         .bi-arrow-right-short {
             fill: $color-primary;
         }
+        &:hover {
+            background-color: $color-primary;
+            color: $color-light;
+            .bi-arrow-right-short {
+                fill: $color-light;
+            }
+        }
     }
     
 }
-
 // social media buttons
 .social-media {
     width: 2rem;

@@ -24,3 +24,7 @@
     @include line-button($text-color, $bg-color);
     background-color: $bg-color;
 }
+.btn-title {
+    position: relative;
+    top: 0.1rem;
+}

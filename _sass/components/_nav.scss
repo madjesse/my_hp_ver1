@@ -22,18 +22,18 @@
                 }
             }
             .languages {
-                width: 15%;
+                width: 14%;
                 height: 8rem;
                 line-height: 8rem;
                 display: flex;
                 justify-content: space-around;
-
                 margin-bottom: 0;
+                margin-left: 1%;
                 .list-inline-item {
                     position: relative;
                     margin: 0;
                     a {
-                        font-size: $font-size-xs;
+                        font-size: $font-size-xxs;
                         &.active {
                             font-weight: $font-weight-medium;
                             &::after{
@@ -44,12 +44,9 @@
                                 position: absolute;
                                 left: 0;
                                 top: 4rem;
-                                transform: translate(-23%, -55%);
+                                transform: translate(-28%, -55%);
                                 border: $border;
                                 border-radius: 50%;
-                            }
-                            &[data-lang="jp"]::after {
-                                transform: translate(-30%, -25%);
                             }
                         }
                         &:hover {
