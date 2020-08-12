@@ -1,0 +1,9 @@
+@import "../base/variables";
+@import "section";
+
+.page {
+    padding-top: 16rem;
+    .title {
+        line-height: 4rem;
+    }
+}

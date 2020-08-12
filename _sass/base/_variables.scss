@@ -1,0 +1,46 @@
+// colors
+$color-primary: #1F2833;
+$color-secondary: #FEB300;
+$color-light: #FFF5D7;
+$color-dark: #333333;
+
+// font families
+$font-family-primary: 'Teko', sans-serif;
+$font-family-secondary: 'Titillium Web', sans-serif;
+
+// font sizes
+$font-size-xg: 5rem;
+$font-size-lg: 4rem;
+$font-size-md: 3rem;
+$font-size-md-sm: 2.5rem;
+$font-size-sm: 2rem;
+$font-size-sm-xs: 1.5rem;
+$font-size-xs: 1rem;
+
+// font weights
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 600;
+$font-weight-bolder: 700;
+
+// letter spacing
+$letter-spacing-lg: 0.3rem;
+$letter-spacing-md: 0.2rem;
+$letter-spacing-sm: 0.1rem;
+
+// border
+$border-primary: 0.2rem solid $color-primary;
+$border-secondary: 0.2rem solid $color-secondary;
+$border-light: 0.2rem solid $color-light;
+
+// for responsive
+$pc: 1200px;  // use min-width: $pc
+$smaller-than-pc: 1199px; // use max-width: $smaller-than-pc
+$tablet: 767px;  // use max-width: $tablet
+$mobile: 576px;  // use max-width: $mobile
+$smaller-than-mobile: 575px; // use min-width: $smaller-than-mobile
+
+
+
+

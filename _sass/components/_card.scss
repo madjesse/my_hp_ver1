@@ -1,0 +1,46 @@
+@import "../base/variables";
+
+
+.card {
+    padding: 3rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 0.2rem 0.2rem 0.5rem 0 lighten($color-dark, 70%);
+        transform: translateY(-0.5rem);
+        transition: all 0.2s ease-in-out;
+    }
+    &.dark-shadow {
+        &:hover {
+            box-shadow: 0.2rem 0.2rem 0.5rem 0 lighten($color-dark, 40%);
+        }
+    }
+    &.no-border {
+        border: none;
+        padding: 0;
+    }
+    &.no-cursor {
+        cursor: initial;
+        &:hover {
+            position: static;
+            transform: none;
+            box-shadow: none;
+        }
+    }
+    .img-container {
+        width: 100%;
+        height: 16rem;
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .card-body {
+        padding: 3rem 0 0;
+        text-align: center;
+        .card-title {
+            font-size: $font-size-sm;
+            margin-bottom: 1rem;
+        }
+    }
+}

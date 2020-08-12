@@ -1,11 +1,10 @@
 ---
 layout: base
 ---
-<header>
-    
-</header>
+
+{% include nav.html page=page %}
 <main>
-    {% for section in page.sections %}
-        {% include {{ section.type }} section=section site=site page=page %}
-    {% endfor %}
+    {% include {{ page.type }} page=page %}
 </main>
+
+{{ content }}

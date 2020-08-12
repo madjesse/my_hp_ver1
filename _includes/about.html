@@ -1,0 +1,18 @@
+<section class="section page">
+    <h1 class="title">{{ page.title | upcase }}</h1>
+    <p class="desc">{{ page.description }}</p>
+    {% for section in page.sections %}
+        <div class="row-container{% if section.background %} bg-yellow{% endif %}">
+            <div class="row container{% if section.reverse %} flex-row-reverse{% endif %}">
+                <div class="col-md-6 img-container">
+                    <img src="{{ section.img.path }}" alt="{{ section.img.alt }}" class="about-img">
+                </div>
+                <div class="col-md-6 text-container">
+                    <span class="tag">{{ section.tag}}</span>
+                    <h2>{{ section.title }}</h2>
+                    <p>{{ section.text }}</p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</section>

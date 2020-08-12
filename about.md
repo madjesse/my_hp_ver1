@@ -1,18 +1,30 @@
 ---
 layout: page
-title: About
-permalink: /about/
+type: about.html
+title: about
+description: About my passion, approaches to work and history
+css:
+  path: assets/css/main-about.css
+inverse: inverse
+sections:
+  - tag: '# My Passion'
+    title: Life is more fun if you make it easier
+    img: 
+      path: assets/images/approach.jpg
+      alt: My Passion Image
+    text: My PassionMy PassionMy PassionMy PassionMy PassionMy Passion
+  - tag: '# My Approach'
+    title: Listen > Research > Create
+    reverse: true
+    background: true
+    img: 
+      path: assets/images/approach.jpg
+      alt: My Approach Image
+    text: My ApproachMy ApproachMy ApproachMy ApproachMy Approach
+  - tag: '# My History'
+    title: 6 years of work experience in design and development 
+    img:
+      path: assets/images/approach.jpg
+      alt: My History Image
+    text: My HistoryMy HistoryMy HistoryMy HistoryMy HistoryMy History
 ---
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll

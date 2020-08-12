@@ -1,0 +1,16 @@
+<section class="container section">
+    <h2 class="title no-desc">LATEST WORKS</h2>
+    <div class="row">
+        {% for work in section.works %}
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="img-container"><img src="{{ work.img.path }}" alt="{{ work.img.alt }}" class="card-img-top"></div>
+                    <div class="card-body">
+                        <h3 class="card-title">{{ work.title }}</h3>
+                        <p>{{ work.text }}</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>

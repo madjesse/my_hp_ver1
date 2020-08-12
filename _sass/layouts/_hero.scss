@@ -1,0 +1,32 @@
+@import "../base/variables";
+@import "../components/button";
+@import "../utilities/mixins";
+
+.hero {
+    background-color: $color-secondary;
+    padding-top: 10rem;
+    .value-prop-group {
+        transform: translateY(8rem);
+    }
+    .value-prop-msg {
+        margin-bottom: 2rem;
+    }
+    .sub-value-prop-msg {
+        margin-bottom: 3rem;
+        font-size: $font-size-md-sm;
+        font-weight: $font-weight-normal;
+        letter-spacing: $letter-spacing-lg;
+    }
+    .btn-group {
+        margin-bottom: 6rem;
+    }
+    .cta {
+        @include button($color-primary, $color-light);
+    }
+    .cta-line {
+        @include line-button($color-primary, $color-light);
+    }
+    .hero-img {
+        width: 100%;
+    }
+}

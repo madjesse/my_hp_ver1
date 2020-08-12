@@ -1,0 +1,30 @@
+@import "../base/variables";
+@import "../utilities/mixins";
+@import "../components/card";
+
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12rem 0;
+}
+.title {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 3rem;
+    &::after {
+        @include underbar($color-secondary);
+    }
+    &.light {
+        &::after {
+            @include underbar($color-light);
+        }
+    }
+    &.no-desc {
+        margin-bottom: 8rem;
+    }
+}
+.desc {
+    margin-bottom: 8rem;
+}

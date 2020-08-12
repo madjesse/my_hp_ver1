@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-sm fixed-top {% if page.inverse %}inverse{% endif %}">
+    <div class="container d-flex flex-row">
+        <!-- nav toggle button -->
+    <button class="navbar-toggler">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- logo -->
+    <a class="d-flex flex-row logo" href="jessecreatives.com">
+        <!-- svg logo -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84.5 129.16">
+            <polygon points="57.75 129.16 14.37 129.16 62.81 101.19 62.81 54.89 30 73.83 30 48.78 84.5 17.32 84.5 113.72 57.75 129.16"/>
+            <polygon points="54.49 68.97 21.69 87.91 21.69 43.98 54.49 25.02 54.49 20.01 17.35 41.48 17.35 95.42 54.49 73.98 54.49 68.97"/>
+            <polygon points="54.49 78.99 13.01 102.94 13.01 38.98 54.49 15.03 54.49 10.02 8.68 36.47 8.68 110.45 54.49 84 54.49 78.99"/>
+            <polygon points="54.49 89.01 4.34 117.97 4.34 33.97 54.49 5.01 54.49 0 0 31.46 0 125.48 54.49 94.02 54.49 89.01"/>
+        </svg>
+        <h1><span class="font-weight-normal">JESSE</span>CREATIVES</h1>
+    </a>
+    <!-- menu -->
+    <div class="collapse navbar-collapse justify-content-end">
+        <ul class="navbar-nav" >
+            {% for item in site.data.menu.nav %}
+                <li class="nav-item"><a href="{{ item.url | relative_url }}" class="nav-link {% if item.title == page.title %}active{% endif %}">{{ item.title | upcase }}</a></li>
+            {% endfor %}
+        </ul>
+        <!-- languages -->
+        <ul class="list-inline languages">
+            <li class="list-inline-item"><a data-lang="en" class="active" href="#">EN</a></li>
+            <li class="list-inline-item"><a data-lang="jp" href="#">JP</a></li>
+        </ul>
+    </div>
+    </div>
+</nav>

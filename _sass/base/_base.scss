@@ -1,5 +1,5 @@
 @import "normalize";
-@import "parameters";
+@import "variables";
 
 *,
 *::before,
@@ -10,10 +10,11 @@ html {
     font-size: 62.5%;
 }
 body {
-    font-size: $font-size-xxxs;
+    font-size: $font-size-sm;
     font-family: $font-family-primary;
+    font-weight: $font-weight-light;
     color: $color-primary;
-    letter-spacing: 0.2rem;;
+    letter-spacing: $letter-spacing-sm;
 }
 a {
     display: block;
@@ -24,16 +25,40 @@ a {
 a:hover {
     text-decoration: none;
 }
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 h1 {
+    margin: 0;
     font-size: $font-size-lg;
     font-weight: $font-weight-bold;
+    letter-spacing: $letter-spacing-lg;
 }
-section {
-
+h2 {
+    margin: 0;
+    font-size: $font-size-md;
+    font-weight: $font-weight-bold;
+    letter-spacing: $letter-spacing-lg;
+}
+h1, h2, h3 {
+    margin: 0;
+}
+p {
+    margin-bottom: 0;
 }
 .container {
+    width: 80%;
+    margin: 0 auto;
     padding: 0;
 }
-.font-weight-regular {
-    font-weight: $font-weight-regular;
+.col-md-6,
+.col-md-3,
+.col-lg-4 {
+    padding: 0 2rem;
+    margin-bottom: 4rem;
+}
+.bg-yellow {
+    background-color: $color-secondary;
 }

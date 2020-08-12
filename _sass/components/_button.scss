@@ -1,38 +1,22 @@
+@import "../base/variables";
+@import "../utilities/mixins";
 
-@import "../base/parameters";
 
-.bi-arrow-right-short {
-    display: block;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    fill: $color-light;
-    width: 2.5rem;
+.btn {
+    padding: 0;
+    &:not(:last-child) {
+        margin-right: 3rem;
+    }
 }
-@mixin line-button($text-color, $line-color) {
-    position: relative;
-    height: 100%;
-    padding: $padding-1-half 0;
-    color: $text-color;
-    font-size: $font-size-xs;
-    font-weight: $font-weight-medium;
-    background-color: transparent;
-    border: $border;
-    border-radius: 6rem;
-}
-@mixin fill-button($text-color, $bg-color) {
-    @include line-button($text-color, $bg-color);
-    background-color: $bg-color;
-}
-.btn-title {
-    position: relative;
-    top: 0.2rem;
+.social-media-group {
+    display: flex;
 }
 .social-media {
     width: 3rem;
-    transform: translateY(2rem);
-    margin-right: 3rem!important;
-    img {
+    &:not(:last-child) {
+        margin-right: 3rem;
+    }
+    svg {
         width: 100%;
         fill: $color-primary;
     }

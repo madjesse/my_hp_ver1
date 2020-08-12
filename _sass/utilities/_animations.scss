@@ -1,0 +1,17 @@
+@keyframes wiggle {
+    0% {
+        transform: translateX(20%);
+    }
+    25% {
+        transform: translateX(40%);
+    }
+    50% {
+        transform: translateX(20%);
+    }
+    75% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(20%);
+    }
+}

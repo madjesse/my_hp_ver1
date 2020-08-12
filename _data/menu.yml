@@ -1,11 +1,11 @@
 nav:
-- title: HOME
-  url: jessecreatives.com
-- title: WORKS
-  url: /works
-- title: BLOG
-  url: /blog
-- title: ABOUT
-  url: /about
-- title: CONTACT
-  url: /contact
+- title: home
+  url: /
+- title: works
+  url: /works.html
+- title: blog
+  url: /blog.html
+- title: about
+  url: /about.html
+- title: contact
+  url: /contact.html
