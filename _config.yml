@@ -21,12 +21,17 @@
 title: Jesse Creatives
 email: jesseweijapan@gmail.com
 description: Web / UX / UI / Application Design and Development With User-centered Approach
-baseurl: "/jekyll" # the subpath of your site, e.g. /blog
-url: "jessecreatives.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+paginate: 9
+paginate_path: /blog/page:num/
 
 # Build settings
+markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.

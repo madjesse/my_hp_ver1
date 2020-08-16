@@ -2,10 +2,10 @@ nav:
 - title: home
   url: /
 - title: works
-  url: /works.html
+  url: /works/
 - title: blog
-  url: /blog.html
+  url: /blog/
 - title: about
-  url: /about.html
+  url: /about/
 - title: contact
-  url: /contact.html
+  url: /contact/

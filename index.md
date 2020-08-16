@@ -1,8 +1,6 @@
 ---
 layout: home
 title: home
-css:
-  path: assets/css/main-home.css
 sections:
   - type: hero.html
     title: USER-CENTERED<br/>DESIGN <span>&</span> DEVELOPMENT

@@ -1,0 +1,9 @@
+@import "../layouts/nav";
+@import "../layouts/page";
+@import "../layouts/footer";
+
+.blog {
+    .tags {
+        color: $color-secondary;
+    }
+}
