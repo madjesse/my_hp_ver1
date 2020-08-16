@@ -22,7 +22,7 @@ title: Jesse Creatives
 email: jesseweijapan@gmail.com
 description: Web / UX / UI / Application Design and Development With User-centered Approach
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "jessecreative.com/jekyll_hp" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 paginate: 9
 paginate_path: /blog/page:num/
 
