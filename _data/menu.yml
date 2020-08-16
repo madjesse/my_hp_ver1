@@ -2,10 +2,10 @@ nav:
 - title: home
   url: /jekyll/
 - title: works
-  url: /works/
+  url: /jekyll/works/
 - title: blog
-  url: /blog/
+  url: /jekyll/blog/
 - title: about
-  url: /about/
+  url: /jekyll/about/
 - title: contact
-  url: /contact/
+  url: /jekyll/contact/
