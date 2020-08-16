@@ -1,11 +1,11 @@
 nav:
 - title: home
-  url: /jekyll/
+  url: /
 - title: works
-  url: /jekyll/works/
+  url: /works/
 - title: blog
-  url: /jekyll/blog/
+  url: /blog/
 - title: about
-  url: /jekyll/about/
+  url: /about/
 - title: contact
-  url: /jekyll/contact/
+  url: /contact/
