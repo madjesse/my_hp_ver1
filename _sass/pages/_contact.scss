@@ -1,0 +1,23 @@
+@import "../layouts/nav";
+@import "../layouts/page";
+@import "../layouts/footer";
+
+.contact {
+    .col-md-4 {
+        padding: 0 3rem;
+        margin: 0 3rem;
+    }
+    .text-container {
+        font-family: $font-family-secondary;
+        h2 {
+            font-weight: $font-weight-light;
+            font-size: $font-size-sm;
+        }
+        a {
+            font-size: $font-size-md-sm;
+            font-weight: $font-weight-bold;
+            letter-spacing: $letter-spacing-md;
+            text-align: left;
+        }
+    }
+}

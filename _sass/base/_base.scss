@@ -8,8 +8,10 @@
 }
 html {
     font-size: 62.5%;
+    height: 100%;
 }
 body {
+    height: 100%;
     font-size: $font-size-sm;
     font-family: $font-family-primary;
     font-weight: $font-weight-light;
@@ -46,6 +48,9 @@ h1, h2, h3 {
     margin: 0;
 }
 p {
+    font-family: $font-family-secondary;
+    font-weight: $font-weight-light;
+    font-size: $font-size-sm;
     margin-bottom: 0;
 }
 .container {
