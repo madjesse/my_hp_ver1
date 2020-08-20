@@ -21,7 +21,7 @@ sections:
       alt: My Approach Image
     text: My ApproachMy ApproachMy ApproachMy ApproachMy Approach
   - tag: '# My History'
-    title: 6 years of work experience in design and development 
+    title: 6 years of experience in design and development 
     img:
       path: ../assets/images/approach.jpg
       alt: My History Image

@@ -9,7 +9,7 @@ works:
   - title: Kintone Master
     text: A Python App Making It Easier to Use Office System
     img:
-      path: ../assets/images/approach.jpg
+      path: ../assets/images/kintone.png
       alt: Image for Kintone Master project
   - title: Google API Master
     text: A Python App Automating Google Drive & Sheets Tasks
