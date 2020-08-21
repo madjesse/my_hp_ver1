@@ -7,11 +7,11 @@ description: About my passion, approaches to work and history
 inverse: inverse
 sections:
   - tag: '# My Passion'
-    title: Life is more fun if you make it easier
+    title: Design to make a difference
     img: 
       path: ../assets/images/approach.jpg
       alt: My Passion Image
-    text: My PassionMy PassionMy PassionMy PassionMy PassionMy Passion
+    text: I always put my design project in the context of its potential users and its possible effect in society, because I believe that design can and should make a difference in people's lives as well as society as a whole.
   - tag: '# My Approach'
     title: Listen > Research > Create
     reverse: true
@@ -19,11 +19,16 @@ sections:
     img: 
       path: ../assets/images/approach.jpg
       alt: My Approach Image
-    text: My ApproachMy ApproachMy ApproachMy ApproachMy Approach
-  - tag: '# My History'
-    title: 6 years of experience in design and development 
+    text: I always start my design work with listening to understand its stakeholders. Then I conduct primary and secondary research to get a deeper insight into the subject. With all the data at hand, finally I start to think about design itself.
+  - tag: '# My Skills'
+    title: Ability to Design AND Develop
     img:
       path: ../assets/images/approach.jpg
       alt: My History Image
-    text: My HistoryMy HistoryMy HistoryMy HistoryMy HistoryMy History
+    text: |
+      - Adobe Illustrator & XD<br>
+      - HTML/Sass/Bootstrap/JS<br>
+      - Jekyll<br>
+      - Python & Django Web Application<br>
+      - Git/Github-based Collaboration
 ---

@@ -26,17 +26,17 @@ sections:
       - title: Kintone Master
         text: A Python App Making It Easier to Use Office System
         img:
-          path: assets/images/approach.jpg
+          path: assets/images/kintone.png
           alt: Image for Kintone Master project
       - title: Google API Master
         text: A Python App Automating Google Drive & Sheets Tasks
         img:
-          path: assets/images/approach.jpg
+          path: assets/images/google.png
           alt: Image for Google API Master project
       - title: UNITEQ BI Design
         text: Logo Design, WEB Design & Coding for UNITEQ.Ltd
         img:
-          path: assets/images/approach.jpg
+          path: assets/images/uniteq.png
           alt: Image for UNITEQ BI Design project
   - type: latest-posts.html
     posts:

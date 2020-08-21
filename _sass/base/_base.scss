@@ -49,8 +49,10 @@ h1, h2, h3 {
 }
 p {
     font-family: $font-family-secondary;
-    font-weight: $font-weight-light;
-    font-size: $font-size-sm;
+    font-weight: $font-weight-normal;
+    color: $color-dark;
+    line-height: 2.5rem;
+    font-size: $font-size-sm-xs;
     margin-bottom: 0;
 }
 .container {
