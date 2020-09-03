@@ -18,15 +18,6 @@
         font-weight: $font-weight-normal;
         letter-spacing: $letter-spacing-lg;
     }
-    .btn-group {
-        margin-bottom: 6rem;
-    }
-    .cta {
-        @include button($color-primary, $color-light);
-    }
-    .cta-line {
-        @include line-button($color-primary, $color-light);
-    }
     .hero-img {
         width: 100%;
     }

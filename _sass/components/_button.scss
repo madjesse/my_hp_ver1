@@ -1,7 +1,15 @@
 @import "../base/variables";
 @import "../utilities/mixins";
 
-
+.btn-group {
+    margin-bottom: 6rem;
+}
+.cta {
+    @include button($color-primary, $color-light);
+}
+.cta-line {
+    @include line-button($color-primary, $color-light);
+}
 .btn {
     padding: 0;
     &:not(:last-child) {

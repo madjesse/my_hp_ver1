@@ -1,15 +1,23 @@
 <section class="container section">
-    <h2 class="title no-desc">LATEST WORKS</h2>
     <div class="row">
+        <div class="col-md-4">
+            <h2 class="title">{{ section.title | upcase }}</h2>
+            <p class="desc">{{ section.description }}</p>
+            <div class="action">
+                <p></p>
+                <a href="{{ section.action.url }}" class="cta">
+                    <span class="btn-title">{{ section.action.title | upcase }}</span>
+                    <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60.916 18.02">
+                        <path d="M5740.861,3052.761h49.879l-21.18-12.432" transform="translate(-5740.861 -3037.742)" fill="none"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
         {% for work in section.works %}
-            <div class="col-md-6 col-lg-4">
-                <div class="card">
-                    <div class="img-container"><img src="{{ work.img.path }}" alt="{{ work.img.alt }}" class="card-img-top"></div>
-                    <div class="card-body">
-                        <h3 class="card-title">{{ work.title }}</h3>
-                        <p>{{ work.text }}</p>
-                    </div>
-                </div>
+            <div class="col-md-4">
+                <img src="{{ work.img.path }}" alt="{{ work.img.alt }}" class="latest-works-img">
+                <h3 class="subtitle">{{ work.title }}</h3>
+                <p>{{ work.text }}</p>
             </div>
         {% endfor %}
     </div>

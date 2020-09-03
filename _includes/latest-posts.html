@@ -1,18 +1,16 @@
-<section class="bg-yellow">
-    <div class="container section">
-        <h2 class="title no-desc light">LATEST POSTS</h2>
-        <div class="row">
-            {% for post in section.posts %}
-                <div class="col-md-6 col-lg-4">
-                    <div class="card dark-shadow">
-                        <div class="img-container"><img src="{{ post.img.path }}" alt="{{ post.img.alt }}" class="card-img-top"></div>
-                        <div class="card-body">
-                            <h3 class="card-title">{{ post.title }}</h3>
-                            <p>{{ post.text }}</p>
-                        </div>
-                    </div>
-                </div>
-            {% endfor %}
+<section class="container section">
+    <div class="row">
+        <div class="col-8">
+            <h2 class="title">{{ section.title | upcase }}</h2>
+            <p class="desc">{{ section.description }}</p>
         </div>
+    </div>
+    <div class="row">
+        {% for post in section.posts %}
+            <div class="col-md-4">
+                <h3 class="subtitle">{{ post.title }}</h3>
+                <p>{{ post.text | truncate: 50 }}</p>
+            </div>
+        {% endfor %}
     </div>
 </section>

@@ -3,8 +3,8 @@ layout: home
 title: home
 sections:
   - type: hero.html
-    title: USER-CENTERED<br/>DESIGN <span>&</span> DEVELOPMENT
-    text: WEB / UX / UI / APPLICATION
+    title: FULL-STACK<br/>WEB <span>&</span> SOLUTION
+    text: WEBSITE / WEB APPICATION / PYTHON DEVELOPMENT
     img:
       path: assets/images/hero.svg
       alt: Hero illustration
@@ -22,56 +22,44 @@ sections:
       - id: instagram
         path: assets/images/insta_round.svg
   - type: latest-works.html
+    title: latest works
+    description: My works include websites and web applications, Python applications and other design work.
+    action:
+      title: more
+      url: /works
     works:
       - title: Kintone Master
         text: A Python App Making It Easier to Use Office System
         img:
-          path: assets/images/kintone.png
+          path: assets/images/kintone/first_view.png
           alt: Image for Kintone Master project
       - title: Google API Master
         text: A Python App Automating Google Drive & Sheets Tasks
         img:
-          path: assets/images/google.png
+          path: assets/images/kintone/first_view.png
           alt: Image for Google API Master project
-      - title: UNITEQ BI Design
-        text: Logo Design, WEB Design & Coding for UNITEQ.Ltd
-        img:
-          path: assets/images/uniteq.png
-          alt: Image for UNITEQ BI Design project
   - type: latest-posts.html
+    title: latest posts
+    description: I write about web development, Python programming and new technologies.
     posts:
       - title: Kintone Master
         text: A Python App Making It Easier to Use Office System
-        img:
-          path: assets/images/approach.jpg
-          alt: Image for Kintone Master project
       - title: Google API Master
         text: A Python App Automating Google Drive & Sheets Tasks
-        img:
-          path: assets/images/approach.jpg
-          alt: Image for Google API Master project
-      - title: UNITEQ BI Design
-        text: Logo Design, WEB Design & Coding for UNITEQ.Ltd
-        img:
-          path: assets/images/approach.jpg
-          alt: Image for UNITEQ BI Design project
   - type: work-with.html
+    title: work with
     clients:
       - title: yokazu
         img:
-          path: assets/images/approach.jpg
+          path: assets/images/yokazu.png
           alt: Image for yokazu
       - title: uniteq
         img:
-          path: assets/images/approach.jpg
+          path: assets/images/uniteq.png
           alt: Image for uniteq
-      - title: alsok
-        img:
-          path: assets/images/approach.jpg
-          alt: Image for alsok
       - title: 8knot
         img:
-          path: assets/images/approach.jpg
+          path: assets/images/eightknot.png
           alt: Image for 8knot
 ---
 
