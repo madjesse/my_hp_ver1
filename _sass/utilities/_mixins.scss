@@ -119,6 +119,18 @@
     }
 
 }
+@mixin arrow($width, $color, $inverse-color) {
+    width: $width;
+    stroke: $color;
+    stroke-width: 6;
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    &.hover {
+        stroke: $inverse-color;
+        animation: wiggle 1s linear infinite;
+    }
+}
 
 @mixin underbar($bg-color) {
     content: "";

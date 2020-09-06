@@ -7,18 +7,24 @@ description: Major projects including Python application / WEB service developme
 inverse: true
 works:
   - title: Kintone Master
-    text: A Python App Making It Easier to Use Office System
+    subtitle: Office Tasks Made Easy
+    text: Python Application
     img:
-      path: ../assets/images/kintone.png
+      path: ../assets/images/kintone/kintone_thumbnail.png
       alt: Image for Kintone Master project
-  - title: Google API Master
-    text: A Python App Automating Google Drive & Sheets Tasks
+    url: /works/kintone
+  - title: Kintone Master
+    subtitle: Office Tasks Made Easy
+    text: Python Application
     img:
-      path: ../assets/images/google.png
-      alt: Image for Google API Master project
-  - title: UNITEQ BI Design
-    text: Logo Design, WEB Design & Coding for UNITEQ.Ltd
+      path: ../assets/images/kintone/kintone_thumbnail.png
+      alt: Image for Kintone Master project
+    url: /works/kintone
+  - title: Kintone Master
+    subtitle: Office Tasks Made Easy
+    text: Python Application
     img:
-      path: ../assets/images/uniteq.png
-      alt: Image for UNITEQ BI Design project
+      path: ../assets/images/kintone/kintone_thumbnail.png
+      alt: Image for Kintone Master project
+    url: /works/kintone
 ---

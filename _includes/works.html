@@ -3,16 +3,12 @@
     <p class="desc">{{ page.description }}</p>
     <div class="row">
         {% for work in page.works %}
-            <div class="col-lg-4 col-md-6">
-                <div class="card">
-                    <div class="img-container">
-                        <img src="{{ work.img.path }}" alt="{{ work.img.alt }}" class="card-img-top">
-                    </div>
-                    <div class="card-body">
-                        <h2 class="card-title">{{ work.title }}</h2>
-                        <p>{{ work.text }}</p>
-                    </div>
-                </div>
+            <div class="col-md-4 col-lg-3">
+                <a href="{{ work.url | relative_url }}" class="card no-border bg">
+                    <img class="card-img-top" src="{{ work.img.path }}" alt="{{ work.img.alt }}">
+                    <h2 class="card-title">{{ work.title }}<span class="card-subtitle">{{ work.subtitle }}</span></h2>
+                    <p class="card-text">{{ work.text }}</p>
+                </a>
             </div>
         {% endfor %}
     </div>
