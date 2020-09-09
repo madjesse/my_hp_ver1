@@ -9,6 +9,7 @@ works:
   - title: Kintone Master
     subtitle: Office Tasks Made Easy
     text: Python Application
+    url: /works/kintone/
     img:
       path: ../assets/images/kintone/kintone_thumbnail.png
       alt: Image for Kintone Master project
@@ -16,6 +17,7 @@ works:
   - title: Kintone Master
     subtitle: Office Tasks Made Easy
     text: Python Application
+    url: /works/kintone/
     img:
       path: ../assets/images/kintone/kintone_thumbnail.png
       alt: Image for Kintone Master project
@@ -23,6 +25,7 @@ works:
   - title: Kintone Master
     subtitle: Office Tasks Made Easy
     text: Python Application
+    url: /works/kintone/
     img:
       path: ../assets/images/kintone/kintone_thumbnail.png
       alt: Image for Kintone Master project

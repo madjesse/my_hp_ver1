@@ -3,16 +3,8 @@
 @import "../utilities/mixins";
 
 .navbar {
-    @include navbar(transparent, $color-primary, $color-light);
+    @include navbar($color-primary, $color-light);
     &.active {
-        @include navbar($color-primary, $color-light, $color-primary);
-        box-shadow: 0 0.1rem 0.5rem 0 lighten($color-dark, 30%);
         transition: all 0.2s ease-in-out;
-    }
-    &.inverse {
-        @include navbar($color-primary, $color-light, $color-primary);
-        &.active {
-            @include navbar($color-primary, $color-light, $color-primary);
-        }
     }
 }

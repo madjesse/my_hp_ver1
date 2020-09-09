@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="{{ site.url | append: '/assets/css/main.css' }}">
     {% seo %}
 </head>
-<body>
+<body class="{% if page.body-bg %}body-bg{% endif %}">
+    {% include nav.html page=page %}
     {{ content }}
     {% include footer.html site=site page=page %}
     <!-- Bootstrap JS -->
